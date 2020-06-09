@@ -116,6 +116,7 @@ public class CovidGetStats {
 		}
 
 		if (response.contentType().equalsIgnoreCase("application/json")) {
+			
 			System.out.println("Content type is JSON");
 		} 
 		else {
