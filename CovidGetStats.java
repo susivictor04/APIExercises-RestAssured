@@ -12,7 +12,6 @@ import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import io.restassured.response.ValidatableResponse;
 
-
 @Test
 public class CovidGetStats {
 
