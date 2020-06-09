@@ -10,7 +10,6 @@ import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 
-
 public class CreateProduct {
 
 //  to get multiple json files to create multiple products
