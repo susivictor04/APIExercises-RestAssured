@@ -24,7 +24,6 @@ public class MajorCitiesWeather {
 	public String[] getCityName() throws IOException, ParseException {
 
 		String[] cityNames = null ;
-
 		JSONParser jsonParser = new JSONParser();
 		FileReader filereader =  new FileReader("C:\\Users\\Jane\\Desktop\\APIAutomation\\Exercises\\data\\citylist.json");
 		Object jsonObj = jsonParser.parse(filereader);
