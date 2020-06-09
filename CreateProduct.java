@@ -56,5 +56,11 @@ public class CreateProduct {
 
 		prodResponse.prettyPrint();
 		System.out.println(prodResponse.statusCode());
+		
+		
+		JsonPath productJson = prodResponse.jsonPath();
+		System.out.println("Product ID : " + productJson.get("id"));
+		System.out.println("Product Type : " + productJson.get("type"));
+		System.out.println("Product category : " + productJson.get("category"));
 	}
 }
