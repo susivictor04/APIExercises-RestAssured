@@ -57,5 +57,4 @@ public class CreateProduct {
 		prodResponse.prettyPrint();
 		System.out.println(prodResponse.statusCode());
 	}
-
 }
