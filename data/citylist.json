@@ -1,0 +1,203 @@
+[
+ {
+    "id": 8131498,
+    "name": "solapur",
+    "state": "",
+    "country": "IN",
+    "coord": {
+      "lon": 75.339859,
+      "lat": 19.88467
+    }
+},
+{
+    "id": 1252881,
+    "name": "West Bengal",
+    "state": "",
+    "country": "IN",
+    "coord": {
+      "lon": 88,
+      "lat": 24
+    }
+  },
+{
+    "id": 1265874,
+    "name": "Kozhikode",
+    "state": "",
+    "country": "IN",
+    "coord": {
+      "lon": 76,
+      "lat": 11.5
+    }
+  },
+{
+    "id": 1252948,
+    "name": "Warangal",
+    "state": "",
+    "country": "IN",
+    "coord": {
+      "lon": 79.583328,
+      "lat": 18
+    }
+  },
+ 
+ {
+    "id": 1253102,
+    "name": "Visakhapatnam",
+    "state": "",
+    "country": "IN",
+    "coord": {
+      "lon": 83.209251,
+      "lat": 17.690041
+    }
+  },
+ {
+    "id": 1271157,
+    "name": "Goa",
+    "state": "",
+    "country": "IN",
+    "coord": {
+      "lon": 74.083328,
+      "lat": 15.33333
+    }
+  },
+{
+    "id": 1253184,
+    "name": "Vijayawada",
+    "state": "",
+    "country": "IN",
+    "coord": {
+      "lon": 80.616669,
+      "lat": 16.51667
+    }
+  },
+ {
+    "id": 1253286,
+    "name": "Vellore",
+    "state": "",
+    "country": "IN",
+    "coord": {
+      "lon": 79.133331,
+      "lat": 12.93333
+    }
+  },
+{
+    "id": 1253405,
+    "name": "Varanasi",
+    "state": "",
+    "country": "IN",
+    "coord": {
+      "lon": 83,
+      "lat": 25.333332
+    }
+  },
+ {
+    "id": 1253573,
+    "name": "Vadodara",
+    "state": "",
+    "country": "IN",
+    "coord": {
+      "lon": 73.199997,
+      "lat": 22.299999
+    }
+  },
+ {
+    "id": 1253626,
+    "name": "Uttar Pradesh",
+    "state": "",
+    "country": "IN",
+    "coord": {
+      "lon": 80.75,
+      "lat": 27.25
+    }
+  },
+{
+    "id": 1253985,
+    "name": "Udaipur",
+    "state": "",
+    "country": "IN",
+    "coord": {
+      "lon": 75.48333,
+      "lat": 27.716669
+    }
+  },
+ {
+    "id": 1253993,
+    "name": "Ooty",
+    "state": "",
+    "country": "IN",
+    "coord": {
+      "lon": 76.699997,
+      "lat": 11.4
+    }
+  },
+{
+    "id": 1254169,
+    "name": "Tripura",
+    "state": "",
+    "country": "IN",
+    "coord": {
+      "lon": 92,
+      "lat": 24
+    }
+  },
+  {
+    "id": 1254331,
+    "name": "Tiruvallur",
+    "state": "",
+    "country": "IN",
+    "coord": {
+      "lon": 79.916672,
+      "lat": 13.15
+    }
+  },
+ {
+    "id": 1254360,
+    "name": "Tirupati",
+    "state": "",
+    "country": "IN",
+    "coord": {
+      "lon": 79.416672,
+      "lat": 13.65
+    }
+  },
+ {
+    "id": 1264527,
+    "name": "Chennai",
+    "state": "",
+    "country": "IN",
+    "coord": {
+      "lon": 80.278473,
+      "lat": 13.08784
+    }
+  },
+ {
+    "id": 1275339,
+    "name": "Mumbai",
+    "state": "",
+    "country": "IN",
+    "coord": {
+      "lon": 72.847939,
+      "lat": 19.01441
+    }
+  },
+{
+    "id": 1261481,
+    "name": "New Delhi",
+    "state": "",
+    "country": "IN",
+    "coord": {
+      "lon": 77.23114,
+      "lat": 28.61282
+    }
+  },
+{
+    "id": 1275004,
+    "name": "Kolkata",
+    "state": "",
+    "country": "IN",
+    "coord": {
+      "lon": 88.36972,
+      "lat": 22.569719
+    }
+  }
+]
