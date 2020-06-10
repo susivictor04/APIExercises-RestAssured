@@ -22,7 +22,6 @@ public class MajorCitiesWeather {
 
 	@DataProvider(name="citiesfromJson", parallel=true)
 	public String[] getCityName() throws IOException, ParseException {
-
 		String[] cityNames = null ;
 		JSONParser jsonParser = new JSONParser();
 		FileReader filereader =  new FileReader("C:\\Users\\Jane\\Desktop\\APIAutomation\\Exercises\\data\\citylist.json");
