@@ -19,13 +19,8 @@ public class FindAllCanonProductPriceRange {
 
 		//		Finding all the canon products of price range between $1000-$1500
 
-		//		products(manufacturer=canon&(salePrice>=1000&salePrice<=1500))?format=json&show=sku,name,salePrice
-
+			
 		RestAssured.baseURI= "https://api.bestbuy.com/v1/";
-
-
-		//		products(manufacturer=apple&search=iPhone 11 Pro)?format=json&show=sku,name,salePrice,regularPrice&apiKey=qUh3qMK14GdwAs9bO59QRSCJ
-		//      products(manufacturer=apple&search=iPhone 11 64GB&inStorePickup=true)+stores(region=RI)?format=json&show=sku,name,stores.storeId,stores.name,stores.address&apiKey=qUh3qMK14GdwAs9bO59QRSCJ
 
 		Map<String, String> parametersMap = new HashMap<String, String>();
 		parametersMap.put("fomat","json");
