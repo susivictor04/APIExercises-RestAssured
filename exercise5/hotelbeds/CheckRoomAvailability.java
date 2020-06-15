@@ -13,8 +13,6 @@ import io.restassured.response.Response;
 @Test
 public class CheckRoomAvailability extends CreateSignature {
 
-
-
 	public void checkAvailability() {
 		Response response = RestAssured
 				.given()
@@ -60,14 +58,12 @@ public class CheckRoomAvailability extends CreateSignature {
 		// for loop to get each hotel
 		for(int i=1 ; i< totalHotel ; i++) {
 
-
 			//to get the hotel name
 			hotelName = jsonPath.get("hotels.hotels["+i+"].name");
 
 			if (hotelName!=null) {
 
 				System.out.println("Hotel Name: " + hotelName);
-
 
 				//to get the total number of rooms
 				List<Object> roomList= jsonPath.getList("hotels.hotels["+i+"].rooms");
@@ -76,21 +72,17 @@ public class CheckRoomAvailability extends CreateSignature {
 
 				System.out.println("Number of rooms :" + totalRoom);
 
-
 				for (int j=0 ; j< totalRoom; j++) {
 
 					roomName = jsonPath.get("hotels.hotels["+i+"].rooms["+j+"].name");
 
 					System.out.println(" Room name :" + roomName);
 
-
 					if (roomName!=null) {
 
 						if (jsonPath.getList("hotels.hotels["+i+"].rooms["+j+"].rates")!=null) {
 
-
 							List<Map<Object, Object>> roomRate = jsonPath.getList("hotels.hotels["+i+"].rooms["+j+"].rates");
-
 
 							for (Map<Object, Object> map : roomRate) {
 
@@ -108,7 +100,6 @@ public class CheckRoomAvailability extends CreateSignature {
 
 								}
 
-
 							}
 						}
 					}
@@ -122,9 +113,7 @@ public class CheckRoomAvailability extends CreateSignature {
 		firstBookableRoomRate =bookableRateKey.get(0);
 		System.out.println(" First Bookable rate key :" +firstBookableRoomRate );
 
-
 	}
-
 
 }
 
