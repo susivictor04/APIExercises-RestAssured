@@ -7,7 +7,6 @@ import io.restassured.response.Response;
 
 public class CheckRoomRates extends CreateSignature {
 
-
 	@Test(dependsOnMethods= {"exercise5.hotelbeds.CheckRoomAvailability.checkAvailability"})
 	public void getCheckRates() {
 
