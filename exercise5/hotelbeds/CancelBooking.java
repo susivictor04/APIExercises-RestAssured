@@ -16,8 +16,7 @@ public class CancelBooking extends CreateSignature{
 				.given()
 				.headers(headerMap)
 				.log().all()
-				.param("cancellationFlag", "SIMULATION")
-				//.get(bookingRef);
+				.param("cancellationFlag", "CANCELLATION")
 				.delete("/bookings/"+ bookingRef);
 
 		response.prettyPrint();
