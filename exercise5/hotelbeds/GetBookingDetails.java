@@ -18,7 +18,6 @@ public class GetBookingDetails extends CreateSignature{
 				.given()
 				.headers(headerMap)
 				.log().all()
-				//.get(bookingRef);
 				.get("/bookings/"+ bookingRef);
 
 		response.prettyPrint();
