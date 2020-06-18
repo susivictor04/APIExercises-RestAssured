@@ -1,0 +1,44 @@
+{
+    "display_name": "Steve Deveney",
+    "salutation": "Mrs.",
+    "first_name": "Steve",
+    "last_name": "Deveney",
+    "email": "sdeveney@walmart.com",
+   
+
+    "company_name": "WALLMART",
+    "phone": 234672232,
+    "mobile": 938237475,
+    "department": "StoreDepartment",
+    "designation": "Manager",
+    "website": "www.walmart.com",
+    "billing_address": {
+        "attention": "Steve cooper",
+        "street": "Michael Street",
+        "city": "San jose",
+        "state": "CA",
+        "zip": 92612,
+        
+        "fax": 4527389
+    },
+    "shipping_address": {
+        "attention": "Second",
+        "street": "Second Bay Street",
+        "city": "Chennai",
+        "state": "TN",
+        "zip": 610206,
+        "fax": 4527389
+    },
+    "payment_terms": 5,
+    "payment_terms_label": "Due on receipt",
+    "currency_code": "USD",
+    "ach_supported": true,
+    "twitter": "Wallmart",
+    "facebook": "Wallmart",
+    "skype": "Wallmart",
+    "notes": "Wallmart",
+    "is_portal_enabled": true,
+    
+    "gst_treatment": "business_gst"
+  
+}
